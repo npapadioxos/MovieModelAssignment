@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MovieModelAssignment</name>
+    </assembly>
+    <members>
+        <member name="T:MovieModelAssignment.Movie">
+            <summary>
+            Crating the Movie Class
+            </summary>
+        </member>
+        <member name="M:MovieModelAssignment.MovieModelAssignment.CalculateRating(MovieModelAssignment.Movie,System.Random)">
+            <summary>
+            Calculates the overall rating of the movie, based on user reviews
+            </summary>
+            <param name="movie"></param>
+            <param name="randomReview"></param>
+            <returns>double</returns>
+        </member>
+        <member name="M:MovieModelAssignment.MovieModelAssignment.CreateMovieList(System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})">
+            <summary>
+            Creates the List of Movies
+            </summary>
+            <param name="moviesTitleList"></param>
+            <param name="moviesActorsList"></param>
+            <returns>Lists of Movies</returns>
+        </member>
+        <member name="M:MovieModelAssignment.MovieModelAssignment.PrintMovies(System.Collections.Generic.List{MovieModelAssignment.Movie})">
+            <summary>
+            Prints TOP 10 movies based on users reviews
+            </summary>
+            <param name="movieList"></param>
+        </member>
+    </members>
+</doc>
